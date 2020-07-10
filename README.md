@@ -1,5 +1,5 @@
-Launch Code Quiz Here!
-http://127.0.0.1:5500/04-Web-APIs/02-Homework/Assets/Code-Quiz.html
+[Launch Code Quiz Here!](https://imhaileynicole.github.io/CodeQuiz.github.io/)
+
 
 
 # 04 Web APIs: Code Quiz
