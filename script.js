@@ -94,7 +94,7 @@ function generateQuizQuestion(){
     buttonD.innerHTML = currentQuestion.choiceD;
 };
 
-// Start Quiz function starts the TimeRanges, hides start button, & displays the first quiz question.
+// Start Quiz function starts the TimeRanges, "hides start button", & "displays the first quiz question."
 function startQuiz(){
     gameoverDiv.style.display = "none";
     startQuizDiv.style.display = "none";
@@ -122,7 +122,7 @@ function showScore(){
 }
 
 // On click of the submit button, we run the function highscore that saves and stringifies the array of high scores already saved in local stoage
-// as well as pushing the new user name and score into the array we are saving in local storage. Then it runs the function to show high scores.
+//  pushing the new user name and score into the array we are saving in local storage. Then it runs the function to show high scores.
 submitScoreBtn.addEventListener("click", function highscore(){
     
     
@@ -193,7 +193,7 @@ function replayQuiz(){
     currentQuestionIndex = 0;
 }
 
-// This function checks the response to each answer 
+// This function will check the response to each answer that is selected
 function checkAnswer(answer){
     correct = quizQuestions[currentQuestionIndex].correctAnswer;
 
@@ -202,7 +202,7 @@ function checkAnswer(answer){
         alert("That Is Correct!");
         currentQuestionIndex++;
         generateQuizQuestion();
-        //display in the results div that the answer is correct.
+        //this will display in the results div that the answer is correct.
     }else if (answer !== correct && currentQuestionIndex !== finalQuestionIndex){
         alert("That Is Incorrect.")
         currentQuestionIndex++;
